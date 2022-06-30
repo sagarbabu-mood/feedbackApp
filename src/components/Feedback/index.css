@@ -1,0 +1,72 @@
+/* Write your CSS code here. */
+* {
+  margin: 0;
+}
+
+.bg-container {
+  background-image: linear-gradient(to right, #ffebeb, #ffc0bb);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'roboto';
+}
+
+.container {
+  padding: 50px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.love-emoji {
+  width: 60px;
+}
+
+.thank-you {
+  font-size: 24px;
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 18px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.heading {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.emoji-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.emoji {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  padding: 10px;
+}
+
+.emoji-image {
+  width: 40px;
+}
+
+.button {
+  background-color: #ffffff;
+  border: 0;
+}
